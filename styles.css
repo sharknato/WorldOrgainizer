@@ -2,15 +2,38 @@ QMainWindow {
     background-color: #2a2a2a;
 }
 
+QMenuBar {
+    background-color: #2a2a2a;
+    font-size: 10pt;
+}
+
+QMenuBar::item {
+    color:#a6a6a6;
+    font-size: 100pt;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+QMenuBar::item::selected {
+    background-color: #363636;
+    border: 2px solid #363636;
+    border-radius: 20px;
+
+}
 
 QPushButton {
     border: 2px solid #3549df;
     background-color:#3c54ff;
     border-radius: 20px;
     color: #fff;
-    }
+}
 
 QPushButton::hover {
     background-color: midnightblue;
     border: rgb(18, 18, 82);
-    }
+}
+
+.newWindow {
+    background-color: #2a2a2a;
+}
